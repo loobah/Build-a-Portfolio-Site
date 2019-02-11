@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio - Felipe Fragoso</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <script src="js/smoothscroll.js"></script>
+ 
+  </head>
+
+  <body>
+
+  	<!-- HEADER -->
+  	<header>
+  		<div class="header_img">
+  			<img src="images/felipe.png" alt="my picture">
+  		</div>
+  		<div id=header_text>
+	  		<div class="title">Felipe Fragoso</div>
+	  		<div class="subtitle">Front-End Ninja</div>
+	  	</div>
+	  	<a id="menu" class="header_menu">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+				<path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+			</svg>
+        </a>
+  	</header>
+	
+	<!-- NAVIGATION -->
+	<nav id="drawer" class="nav">
+      <ul class="nav_list">
+        <li class="nav_item"><a href="#mta">MTA</a></li>
+        <li class="nav_item"><a href="#clinical">Clinical</a></li>
+        <li class="nav_item"><a href="#reducta">Reducta</a></li>
+        <li class="nav_item"><a href="#social">Social</a></li>
+      </ul>
+    </nav>
+
+	<main>
+
+	    <section class="container">
+	      
+	      <!-- HERO -->
+	      <div class="box hero">
+				<picture>
+					<source media="(max-width: 599px)" srcset="images/hero_mob.jpg">
+					<source media="(max-width: 999px)" srcset="images/hero_tab.jpg">
+					<source media="(min-width: 1000px)" srcset="images/hero_dtp.jpg">
+					<img src="images/hero_tab.jpg" alt="hero image">
+				</picture>    
+	      </div>
+	    </section>
+
+      	<!-- PROJECTS -->
+      	<section class="container">
+	      <div class="featured">
+	      	<h1>Featured Work</h1>
+	      </div>
+	      
+	      <!-- PROJECT 01 -->
+	      <div id="mta" class="box project1">
+	      		<picture>
+					<source media="(max-width: 599px)" srcset="images/proj1_mob.jpg">
+					<source media="(min-width: 600px)" srcset="images/proj1_dtp.jpg">
+					<img src="images/proj1_mob.jpg" alt="hero image">
+				</picture>
+	      	<p>MTA Responsive</p>
+	      	<a href="#">http://github.com/udacity/mta</a>
+	        <div class="spacer"></div>
+	      </div>
+
+	      <!-- PROJECT 02 -->
+	      <div id="clinical" class="box project2">
+	      		<picture>
+					<source media="(max-width: 599px)" srcset="images/proj2_mob.jpg">
+					<source media="(min-width: 600px)" srcset="images/proj2_dtp.jpg">
+					<img src="images/proj2_mob.jpg" alt="hero image">
+				</picture>
+	      	<p>Clinical</p>
+	      	<a href="#">http://github.com/udacity/clinical</a>
+	        <div class="spacer"></div>
+	      </div>
+
+	      <!-- PROJECT 03 -->
+	      <div id="reducta" class="box project3">
+	      		<picture>
+					<source media="(max-width: 599px)" srcset="images/proj3_mob.jpg">
+					<source media="(min-width: 600px)" srcset="images/proj3_dtp.jpg">
+					<img src="images/proj3_mob.jpg" alt="hero image">
+				</picture>
+	      	<p>Reducta</p>
+	      	<a href="#">http://github.com/udacity/reducta</a>
+	        <div class="spacer"></div>
+	      </div>
+	    </section>
+
+	    <!-- SOCIAL -->
+	    <section class="wrapper">
+	    	<ul class="social">
+		    	<li><a href="https://www.instagram.com/loobah/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+		    	<li><a href="https://www.linkedin.com/messaging/thread/6494180723451273216/" target="_blank"><i class="fab fa-linkedin-in"></i>LinkedIn</a></li>
+		    	<li><a href="mailto:pousbo@gmail.com"><i class="far fa-envelope"></i>Email me</a></li>
+	    	</ul>
+	    </section>
+
+	    <!-- FOOTER -->
+	    <footer id="social" class="footer">
+	    	<p>©Copyright 2019 by Felipe Fragoso. All rights reserved.</p>
+    	</footer>
+
+	</main>
+
+	<script src="js/menu.js"></script>
+
+  </body>
+
+</html>
