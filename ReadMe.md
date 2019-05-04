@@ -11,7 +11,7 @@ This is a **flex HTML5 responsive portfolio**.
 
 You can check it online clicking [here](http://loobah.com/udacity/portfolio).
 
-I'll be back here now and then, in order to update and improve it, code and content-wise!
+I'll be back here now and then, in order to update and improve it (code and content-wise)!
 
 Stay tuned... :)
 
