@@ -16,7 +16,8 @@ I'll be back here now and then, in order to update and improve it, code and cont
 Stay tuned... :)
 
  
-In the meantime, if you'd like to learn more about my work, please chec my official online portfolio:
+If you'd like to learn more about my work please visit this link:
+
 [Felipe Fragoso](https://felipefragoso.myportfolio.com)
 
 ## Contributing
